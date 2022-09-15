@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+#header {
+    background: aquamarine;
+    height: 100px;
+    width: 100%;
+    border-bottom: 3px solid silver ;
+    position: fixed;
+}
+
+#logo {
+    display: block;
+    height: 70px;
+    width: 20px;
+    position: relative;
+    top: 15px;
+    left: 30px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 10px black;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 50px;
+    float: left;
+}
+
+#logo:hover {
+    text-shadow: 2px 2px 10px rgb(0, 225, 255);
+}
+
+.search {
+    float: left;
+    position: relative;
+    top: 35px;
+    left: 30%;
+    height: 40px;
+    display: block;
+    padding-left: 10px;
+}
+
+#search {
+    width: 300px;
+}
+
+#buttonsearch {
+    width: 70px;
+}
+
+#login {
+    display: block;
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: 35px;
+    font-size: 20px;
+    right: 20px;
+    float: right;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+.category {
+    width: 100%;
+    height: 250px;
+    border: 2px solid silver;
+}
+
+.inlogin {
+    display: none;
+
+}
+
+.profil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 165px;
+    height: 30px;
+    border-bottom: 1px solid silver;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+
+.profil:hover {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+#login:hover ~ .inlogin, .inlogin:hover {
+    display: block;
+    background-color: #fff;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    border: 1px solid black;
+}
